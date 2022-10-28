@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Ubuntu',sans-serif;
+	background-color: greenyellow;
+}
+.form{
+	width:600px;
+	margin: auto;
+}
+img{
+	width: 200px;
+    border-radius:50% ;
+	background-color: black;
+}
+.image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top:30px;
+}
+.title-div,.about-div,.perks-div,.ct-div{
+	border-top: 10px solid orangered;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: white;
+	width: 500px;
+	margin: 20px auto;
+} 
+@media screen and (max-width: 500px){
+	.title-div,.about-div,.perks-div,.ct-div{
+		width: 80%;
+	}
+	img{
+		margin-left: 40%;
+	}
+	
+  }
+.title-div{
+	margin-top:30px;
+}
+hr{
+	margin: 20px auto;
+	height: 5px;
+	background-color: rgb(179, 171, 171);
+	border-radius: 5px;
+}
+p{
+	font-size: 18px;
+}
+ul {
+    padding-left: 20px;
+	font-size: 18px;
+}
+
+.inp{
+	margin-top: 10px;
+	width: 250px;
+	border:0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+    padding: 20px auto;
+}
+.inpu{
+	margin: auto 5px;
+}
+.required{
+	color: red;
+}
+.btn{
+	font-size: 18px;
+	padding: 10px 24px;
+	margin-left: 35px;
+	margin-bottom: 20px;
+	background-color:white;
+	border:rgb(231, 47, 47) 2px solid;
+	border-radius: 5px;
+	font-family: 'Roboto','sans-serif';
+}
+.btn:hover{
+	background-color: red;
+	color:white ;
+}
+
